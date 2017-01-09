@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto';
+    background-color: #343e48;
+}
+input {
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    outline: 0;
+    margin-bottom: 20px;
+}
+.videoBlock {
+    width: 275px;
+    font-weight: 400px;
+    background-color: white;
+    box-shadow: 0 0 1px 1px rgba(190, 190, 190, 1);
+    position: relative;
+}
+h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    text-align: center;
+}
+.mainInfo img {
+    width: 275px;
+}
+.description {
+    overflow: hidden; 
+    margin-top: 30px;
+}
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 405px;
+}
+.mainInfo {
+    display:inline-block;   
+    position:relative;
+}
+.mainInfo .otherInfo, .mainInfo .author {
+    position:absolute; 
+    left:0px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px; 
+    background-color:rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.mainInfo .otherInfo {
+    bottom:3px; 
+    padding-bottom: 3px;
+}
+i {
+    padding-right: 7px; 
+}
+.mainInfo .author {
+    top: 0px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.swipe__page {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.swipe__page_animating {
+    transition: transform 1000ms linear;
+}
+a {
+    text-decoration: none;
+}
